@@ -8,6 +8,6 @@ terraform {
     key    = "terraform-backend/terraform.tfstate"
     region = "us-west-2"
 
-    # dynamodb_table = "terraform-abel"
+    dynamodb_table = "terraform-np"
   }
 }
